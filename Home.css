@@ -1,0 +1,209 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+html,body{
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+}
+.main  header{
+    display: flex;
+    flex-direction: row;
+    border-bottom: .5px solid black;
+    position: sticky;
+    top: 0;
+    z-index: 2;
+    backdrop-filter: blur(10px);
+    height: 100px;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+.main header .btns .hidden1{
+    display: none;
+}
+.main  header  .btns{
+    margin-right: 50px;
+    display: flex;
+   justify-content: flex-end;
+   align-content: flex-end;
+    height: fit-content;
+    width: fit-content;
+    gap: 10px;
+   }
+   .main header .txt{
+    margin-left: 50px;
+   }
+.main  header .txt h1{
+    width: fit-content;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 35px;
+}
+.main >.cont > img{
+    z-index: 1;
+}
+.main > .cont{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.main > header > .btns >.logout{
+    /* position: relative;
+    left:1200px;
+    top:30px; */
+    font-size: 20px;
+    background-color: rgb(84, 105, 212);
+    color: #fff;
+    font-weight: 600;
+    height:50px;
+    width: 100px;
+    border-radius: 5px;
+    border: 1px solid rgb(84, 105, 212);
+    outline: none;
+
+}
+.main > header > .btns > .create{
+    /* position: relative;
+    left:980px;
+    top:30px; */
+    font-size: 20px;
+    background-color: rgb(245, 150, 42);
+    color: #fff;
+    font-weight: 600;
+    height:50px;
+    width: 100px;
+    border-radius: 5px;
+    border: 1px solid rgb(245, 150, 42);
+    outline: none;
+
+}
+.main > header > .btns > .logout:hover{
+ cursor: pointer;
+ opacity: .7;
+}
+.main > header > .btns > .create:hover{
+    cursor: pointer;
+    opacity: .7;
+}
+
+footer{
+    text-align: center;
+    background-color: antiquewhite;
+    color: black;
+    margin-left: 50px;
+    margin-right: 50px;
+    padding: 10px;
+}
+footer > b{
+    font-family: 'Poppins', sans-serif;
+}
+@media all and (max-width:500px){
+    html,body{
+        height: 100vh;
+        margin: 0;
+        padding: 0;
+        overflow-x: hidden;
+    }
+    .main{
+        display: flex;
+        flex-direction: column;
+    }
+    .main  header{
+        display: flex;
+        flex-direction: row;
+        border-bottom: .5px solid black;
+        position: sticky;
+        top: 0;
+        z-index: 2;
+        backdrop-filter: blur(10px);
+        height: 100px;
+        width: 100%;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0 20px;
+    }
+    .main header .btns .hidden1{
+        display: none;
+    }
+    .main  header  .btns{
+        margin-right: 50px;
+        display: flex;
+       justify-content: flex-end;
+       align-content: flex-end;
+        height: fit-content;
+        width: fit-content;
+        gap: 10px;
+       }
+       .main header .txt{
+        margin-left: 0;
+       }
+    .main  header .txt h1{
+        width: fit-content;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 500;
+        font-size: 35px;
+    }
+    .main >.cont > img{
+        z-index: 1;
+    }
+    .main > .cont{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .main > header > .btns >.logout{
+        /* position: relative;
+        left:1200px;
+        top:30px; */
+        font-size: 20px;
+        background-color: rgb(84, 105, 212);
+        color: #fff;
+        font-weight: 600;
+        height:50px;
+        width: 100px;
+        border-radius: 5px;
+        border: 1px solid rgb(84, 105, 212);
+        outline: none;
+    
+    }
+    .main > header > .btns > .create{
+        /* position: relative;
+        left:980px;
+        top:30px; */
+        font-size: 20px;
+        background-color: rgb(245, 150, 42);
+        color: #fff;
+        font-weight: 600;
+        height:50px;
+        width: 100px;
+        border-radius: 5px;
+        border: 1px solid rgb(245, 150, 42);
+        outline: none;
+    
+    }
+    .main > header > .btns > .logout:hover{
+     cursor: pointer;
+     opacity: .7;
+    }
+    .main > header > .btns > .create:hover{
+        cursor: pointer;
+        opacity: .7;
+    }
+    
+    footer{
+        text-align: center;
+        background-color: antiquewhite;
+        color: black;
+        margin-left: 50px;
+        margin-right: 50px;
+        padding: 10px;
+    }
+    footer > b{
+        font-family: 'Poppins', sans-serif;
+    }
+}

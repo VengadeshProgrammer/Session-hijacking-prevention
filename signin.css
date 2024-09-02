@@ -1,0 +1,240 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body{
+    font-family: "Poppins", sans-serif;
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+    display: flex;
+      align-items: center;
+      justify-content: center;
+}
+input{
+    font-size: 16px;
+    line-height: 28px;
+    padding: 8px 16px;
+    width: 450px;
+    height:44px;
+    border: unset;
+    border-radius: 4px;
+    outline-color: rgb(84 105 212 / 0.5);
+    background-color: rgb(255, 255, 255);
+    box-shadow: rgba(0, 0, 0, 0) 0px 0px 0px 0px, 
+                rgba(0, 0, 0, 0) 0px 0px 0px 0px, 
+                rgba(0, 0, 0, 0) 0px 0px 0px 0px, 
+                rgba(60, 66, 87, 0.16) 0px 0px 0px 1px, 
+                rgba(0, 0, 0, 0) 0px 0px 0px 0px, 
+                rgba(0, 0, 0, 0) 0px 0px 0px 0px, 
+                rgba(0, 0, 0, 0) 0px 0px 0px 0px;
+}
+.signin{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.signin > .signinbtn {
+    font-size: 20px;
+    background-color: rgb(84, 105, 212);
+    color: #fff;
+    font-weight: 600;
+    cursor: pointer;
+    height:50px;
+    width: 300px;
+    border-radius: 5px;
+    border: 1px solid rgb(84, 105, 212);
+    outline: none;
+    position: relative;
+    top: 55px;
+}
+.signin > .signinbtn:hover{
+    opacity: .8;
+}
+.container{
+    padding: 20px;
+    margin:100px;
+    width: 500px;
+    height: 450px;
+    box-shadow: rgba(60, 66, 87, 0.12) 0px 7px 14px 0px, rgba(0, 0, 0, 0.12) 0px 3px 6px 0px;
+}
+.container > div{
+    padding-left: 8px;
+}
+.username > input{
+    position: relative;
+    top:10px;
+}
+.passworddiv > span{
+    position: relative;
+    top:10px;
+}
+.passworddiv > input{
+    position: relative;
+    top:20px;
+}
+a{
+    position: relative;
+    top:70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+@media all and (max-width:600px){
+    body{
+        font-family: "Poppins", sans-serif;
+        display: flex;
+        justify-content: center;
+        font-size: 20px;
+        display: flex;
+          align-items: center;
+          justify-content: center;
+    }
+    input{
+        font-size: 16px;
+        line-height: 28px;
+        padding: 8px 16px;
+        width: 300px;
+        height:44px;
+        border: unset;
+        border-radius: 4px;
+        outline-color: rgb(84 105 212 / 0.5);
+        background-color: rgb(255, 255, 255);
+        box-shadow: rgba(0, 0, 0, 0) 0px 0px 0px 0px, 
+                    rgba(0, 0, 0, 0) 0px 0px 0px 0px, 
+                    rgba(0, 0, 0, 0) 0px 0px 0px 0px, 
+                    rgba(60, 66, 87, 0.16) 0px 0px 0px 1px, 
+                    rgba(0, 0, 0, 0) 0px 0px 0px 0px, 
+                    rgba(0, 0, 0, 0) 0px 0px 0px 0px, 
+                    rgba(0, 0, 0, 0) 0px 0px 0px 0px;
+    }
+    .signin{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .signin > .signinbtn {
+        font-size: 20px;
+        background-color: rgb(84, 105, 212);
+        color: #fff;
+        font-weight: 600;
+        cursor: pointer;
+        height:50px;
+        width: 180px;
+        border-radius: 5px;
+        border: 1px solid rgb(84, 105, 212);
+        outline: none;
+        position: relative;
+        top: 55px;
+    }
+    .signin > .signinbtn:hover{
+        opacity: .8;
+    }
+    .container{
+        padding: 20px;
+        margin:100px;
+        width: 500px;
+        height: 450px;
+        box-shadow: rgba(60, 66, 87, 0.12) 0px 7px 14px 0px, rgba(0, 0, 0, 0.12) 0px 3px 6px 0px;
+    }
+    .container > div{
+        padding-left: 8px;
+    }
+    .username > input{
+        position: relative;
+        top:10px;
+    }
+    .passworddiv > span{
+        position: relative;
+        top:10px;
+    }
+    .passworddiv > input{
+        position: relative;
+        top:20px;
+    }
+    a{
+        position: relative;
+        top:70px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
+@media all and (max-width:447px) {
+    body{
+        font-family: "Poppins", sans-serif;
+        display: flex;
+        justify-content: center;
+        font-size: 20px;
+        display: flex;
+          align-items: center;
+          justify-content: center;
+    }
+    input{
+        font-size: 16px;
+        line-height: 28px;
+        padding: 8px 16px;
+        width: 200px;
+        height:44px;
+        border: unset;
+        border-radius: 4px;
+        outline-color: rgb(84 105 212 / 0.5);
+        background-color: rgb(255, 255, 255);
+        box-shadow: rgba(0, 0, 0, 0) 0px 0px 0px 0px, 
+                    rgba(0, 0, 0, 0) 0px 0px 0px 0px, 
+                    rgba(0, 0, 0, 0) 0px 0px 0px 0px, 
+                    rgba(60, 66, 87, 0.16) 0px 0px 0px 1px, 
+                    rgba(0, 0, 0, 0) 0px 0px 0px 0px, 
+                    rgba(0, 0, 0, 0) 0px 0px 0px 0px, 
+                    rgba(0, 0, 0, 0) 0px 0px 0px 0px;
+    }
+    .signin{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .signin > .signinbtn {
+        font-size: 20px;
+        background-color: rgb(84, 105, 212);
+        color: #fff;
+        font-weight: 600;
+        cursor: pointer;
+        height:50px;
+        width: 180px;
+        border-radius: 5px;
+        border: 1px solid rgb(84, 105, 212);
+        outline: none;
+        position: relative;
+        top: 55px;
+    }
+    .signin > .signinbtn:hover{
+        opacity: .8;
+    }
+    .container{
+        padding: 20px;
+        margin:100px;
+        width: 500px;
+        height: 450px;
+        box-shadow: rgba(60, 66, 87, 0.12) 0px 7px 14px 0px, rgba(0, 0, 0, 0.12) 0px 3px 6px 0px;
+    }
+    .container > div{
+        padding-left: 8px;
+    }
+    .username > input{
+        position: relative;
+        top:10px;
+    }
+    .passworddiv > span{
+        position: relative;
+        top:10px;
+    }
+    .passworddiv > input{
+        position: relative;
+        top:20px;
+    }
+    a{
+        position: relative;
+        top:70px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
